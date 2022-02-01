@@ -2,7 +2,7 @@ import React from 'react';
 
 const Index = (props) => (
     <div>
-        <h1>Ninjas -> INDEX</h1>
+        <h1>Ninjas INDEX</h1>
     </div>
 );
 
