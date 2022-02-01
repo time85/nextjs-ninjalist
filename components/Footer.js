@@ -6,10 +6,9 @@ const currentYear = () => {
 
 const Footer = () => {
     return (
-        <div>
-            <hr />
+        <footer>
             Copyright {currentYear()} | <a href="https://github.com/time85/nextjs-ninjalist">open @GitHub</a>
-        </div>
+        </footer>
     );
 };
 
