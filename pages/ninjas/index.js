@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Index = (props) => (
+const Index = () => (
     <div>
         <h1>Ninjas INDEX</h1>
+        <p>
+            Ninjagooo
+        </p>
     </div>
 );
 

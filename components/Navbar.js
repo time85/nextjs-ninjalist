@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 function Navbar(props) {
     return (
@@ -6,9 +6,9 @@ function Navbar(props) {
             <div className="logo">
                 <h1>NinjaList</h1>
             </div>
-            <a>Home</a>
-            <a>NinjaList</a>
-            <a>About</a>
+            <Link href="/"><a>Home</a></Link>
+            <Link href="/ninjas"><a>NinjaList</a></Link>
+            <Link href="/about"><a>About</a></Link>
         </nav>
     );
 }
