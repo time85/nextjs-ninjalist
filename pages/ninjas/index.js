@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from "next/head";
+import styles from '../../styles/Ninjas.module.css';
 
 export const getStaticProps = async () => {
 
@@ -23,7 +24,7 @@ const Index = ({ninjas}) => (
             <h1>Ninjas INDEX</h1>
             {ninjas.map(ninja => (
                 <div key={ninja.id}>
-                    <a>
+                    <a className={styles.single}>
                         <h3>{ninja.name}</h3>
                     </a>
                 </div>
